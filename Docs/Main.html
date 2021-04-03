@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web PDF Saver</title>
-    <meta name="google-site-verification" content="FYAxRF5yD8C2fvkYzbgf8oop3MVKC-Z6JVF3bijKodk" />
+    <title>Web PDF Saver for Windows</title>
     <!-- Bootstrap -->
-    <link href="bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -18,7 +17,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://wpdfs.github.io">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://github.com/wpdfs/webPDFsaver">Source Code on GitHub&nbsp;</a>
@@ -27,26 +26,36 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           
-			<a class="btn btn-outline-success my-2 my-sm-0" type="submit" role="button" href="Manual/Main.html">Tutorial&nbsp;</a>
+			
         </form>
       </div>
   </nav>
     <div class="container mt-2">
-      <div class="row">
+      
         <div class="col-12">
+		<div class="row justify-content-center">
           <div class="jumbotron">
-            <h1 class="text-center">Web PDF Saver</h1>
-            <div class="row justify-content-center">
-              <div class="col-auto">
-                <p><a class="btn btn-primary btn-lg" href="Windows/Main.html" role="button">Windows</a> </p>
-              </div>
-              <div class="col-auto">
-				  <p><a class="btn btn-success btn-lg" href="Linux/Main.html" role="button">Linux&nbsp;</a> </p>
-              </div>
-            </div>
-            <p class="text-center"><br>A completly free and open-source Python app to save view-only documents and E-Books from the web.<br> </p>
+            <h1>Web PDF Saver for Windows</h1>
+            
+            <p class="text-left" > Unzip the downloaded file and then run "WebPDFsaver.exe"</p>
+            
+            <p class="text-left" > 
+              
+              <button type="button" class="btn btn-info" onclick="toggle_text()" id="textButton">
+                Show Checksums
+              </button>
+                </select>
+                <div style='display:none;' id='checksums'>
+                  For WebPDFsaver.exe- <br><br> SHA256: aee2d55362fc1c8af1f83a0626d45418e2dff801d6ede6cc6b328d3cbf7e96e5 <br> MD5: 122115441cd6e7ae5f02dddb866c02d4
+                </div>
+                   
+		
           </div>
-        </div>
+			<div class="jumbotron">
+			 <div class="col-auto">
+                <p><a class="btn btn-primary btn-lg" href="https://github.com/wpdfs/webPDFsaver/releases/latest/download/WebPDFsaver.zip" role="button">Download&nbsp;</a> </p>
+			  </div>
+          </div>
       </div>
     </div>
     <div class="container">
@@ -55,36 +64,17 @@
         
   </div>
    
-    <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-12">
-          <h2>Shape&nbsp;</h2>
-          <p>Shape the window to fit a page&nbsp;&nbsp;</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12">
-          <h2>Select button&nbsp;</h2>
-          <p>&nbsp;Point the cursor to where the "Next page" button is&nbsp;&nbsp;</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12">
-          <h2> Relax&nbsp;</h2>
-          <p>Let&nbsp; Web PDF Saver do its work. It will screenshot and turn pages on its own!&nbsp; &nbsp;</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12">
-          <h2>PDF!&nbsp;</h2>
-          <p>Enjoy your PDF which you can store and read anytime.&nbsp;&nbsp;</p>
-        </div>
-      </div>
-    </div>
+   
 	  <hr>
 	  <div class="container">
 	<div class="row justify-content-center">
 	<div class="text-center col-md-6 col-12 col-lg-12 col-xl-4">
-          <h3>&nbsp;Need to modify the code?</h3>
-          <p>Check out the documentation to see how the scrips are structured&nbsp;</p>
-          <a class="btn btn-info btn-lg" href="#" role="button">Documentation</a>
-		</div>
-        </div>
+          <h3>&nbsp;Need help?</h3>
+          <p>Read the manual.&nbsp;</p>
+		
+        <button class="btn btn-outline-success my-2 my-sm-0"> Manual<type="submit">
+		
+			</div>
 	  </div>
     <hr>
     <div class="container mt-4">
@@ -123,15 +113,15 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>Liscensed under the Apache License, Version 2.0</p>
+            <p>Liscensed Under the Apache Liscense 2.0</p>
           </div>
         </div>
       </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="popper.min.js"></script>
-    <script src="bootstrap-4.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
   </body>
 </html>
