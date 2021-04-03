@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Product Page Template</title>
+    <title>Web PDF Saver for Windows</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
@@ -38,12 +38,22 @@
             <h1>Web PDF Saver for Windows</h1>
             
             <p class="text-left" > Unzip the downloaded file and then run "WebPDFsaver.exe"</p>
-			  
+            
+            <p class="text-left" > 
+              
+              <button type="button" class="btn btn-info" onclick="toggle_text()" id="textButton">
+                Show Checksums
+              </button>
+                </select>
+                <div style='display:none;' id='checksums'>
+                  For WebPDFsaver.exe- <br><br> SHA256: aee2d55362fc1c8af1f83a0626d45418e2dff801d6ede6cc6b328d3cbf7e96e5 <br> MD5: 122115441cd6e7ae5f02dddb866c02d4
+                </div>
+                   
 		
           </div>
 			<div class="jumbotron">
 			 <div class="col-auto">
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Download&nbsp;</a> </p>
+                <p><a class="btn btn-primary btn-lg" href="https://github.com/wpdfs/webPDFsaver/releases/latest/download/WebPDFsaver.zip" role="button">Download&nbsp;</a> </p>
 			  </div>
           </div>
       </div>
@@ -103,7 +113,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>Liscensed Under GPL v3</p>
+            <p>Liscensed Under the Apache Liscense 2.0</p>
           </div>
         </div>
       </div>
